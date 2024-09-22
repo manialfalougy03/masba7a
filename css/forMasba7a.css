@@ -1,8 +1,8 @@
 nav , aside{
-    font-size:30px;
+    font-size: 20px;
     color: rgb(42, 12, 71); 
     background-color: rgb(218, 198, 236);
-    padding: 20px;
+    padding: 5px;
     border-radius: 20px;
     margin: 5px;
     /* margin-bottom: 200px; */
@@ -11,20 +11,23 @@ ul{
     list-style-type: circle;
 }
 nav ul li{
-    display: inline-block;
-    margin-left: 320px;
+    display: inline-flex;
+    text-align: center;
+    margin-left:auto;
+    margin:0px 170px;
     transition: all 0.3s;
+    color: #351156;
 }
 li:hover{
     transform: scale(1.2);
 }
 header{
-    margin-top: 100px;
+    margin-top: 40px;
 }
 header h1{
     text-align: center;
-    margin: 50px 550px 80px 550px   ;
-    padding: 50px;
+    margin: 10px 400px 40px 400px   ;
+    padding: 30px;
     border-radius: 20px;
     color: rgb(73, 34, 112);
     background-color: rgb(190, 153, 224);
@@ -33,8 +36,8 @@ header h1{
 header h3{
     font-size: 15;
     text-align: center;
-    margin: 50px 500px 20px 500px   ;
-    padding: 30px;
+    margin: 40px 350px 10px 350px   ;
+    padding: 20px;
     border-radius: 20px;
     color: rgb(73, 34, 112);
     background-color: rgb(205, 193, 217);
@@ -44,8 +47,8 @@ header h3{
     text-align:center;
     border: 3px rgb(168, 105, 226) dotted;
     border-radius: 50px; 
-    margin-left: 550px;   
-    margin-right: 550px;  
+    margin-left: 350px;   
+    margin-right: 350px;  
     padding-left: 60px; 
 }
 svg{
@@ -56,11 +59,11 @@ svg{
 svg:hover{
     transform: scale(1.2);
 }
-.Btns{
+/* .Btns{
     text-align: left;
     margin-left: 50px;
     margin-bottom: 50px;
-}
+} */
 
 #counterOutput{
     font-size: 25px;
@@ -72,6 +75,7 @@ svg:hover{
     border: 2px dotted rgb(168, 105, 226);
     border-radius: 5px;
 }
+
 .azkar{
     text-align: right;
     font-size: 30px;
@@ -117,15 +121,19 @@ table{
     margin: 20px;
     margin-left: 200px ;
     border: 2px dotted rgb(168, 105, 226);
-    margin-bottom: 350px;
+    margin-bottom: 300px;
     
 }
 table , th , td{
     border: 1px dashed rgb(168, 105, 226);
     border-radius: 10px;
-    padding: 20px 50px;
+    padding: 10px 30px;
 }
 footer ul li{
-    display: inline-block;
-    margin-left: 320px;
-    transition: all 0.3s;}
+    display: inline-flex;
+    text-align: center;
+    margin-left: auto;
+    margin:0px 160px;
+    transition: all 0.3s;
+    color: #351156;
+}
